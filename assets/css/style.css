@@ -1,0 +1,22 @@
+body {
+    margin: 100px;
+    background-color: #ccc;
+    
+
+}
+
+header {
+
+    border: 10px solid darkgray;
+
+}
+
+
+
+
+#gems {
+   
+    margin: 50px;
+    border: 20px solid grey;
+    text-align: center;
+}
