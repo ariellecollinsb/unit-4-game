@@ -1,22 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 100px;
-    background-color: #ccc;
-    
-
+    background-color: #d1c6f3;
+    width: 960px;
+    height: 100%;
+    border: 5px solid #ef4937;
+    margin: 0 auto;
 }
 
-header {
-
-    border: 10px solid darkgray;
-
+.clearfix {
+    clear: both;
 }
 
+.crystal-gems {
+    width: 350px;
+    float: right;
+}
 
+.logo {
+    width: 590px;
+    float: left;
+}
 
+.start {
+    text-align: center;
+}
+
+#start-button{
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #ef4937;
+}
+
+.scores {
+    text-align: left;
+    font-size: 30px;
+    padding: 10px;
+}
 
 #gems {
    
-    margin: 50px;
-    border: 20px solid grey;
+    margin: 10px;
+    border: 5px solid #ef4937;
     text-align: center;
+}
+
+footer {
+    border-bottom: 10px solid #ef4937;
 }
