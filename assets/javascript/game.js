@@ -5,7 +5,7 @@ var losses = 0;
 
 var answer = 0;
 
-var userScore = 0;
+var userGuess = 0;
 
 var gameOver = false;
 
