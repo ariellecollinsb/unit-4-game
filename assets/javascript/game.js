@@ -16,30 +16,14 @@ var gems = {
     emerald: 0,
     topaz: 0,
 }
-// Four gems and a random result
-
-// each gem has a random number between 1-12
-
-// a new number should be generated for each gem at start()/restart()
-
-// on.click of a gem {gem value += gem value} till {gem value === answer || gem value > answer }
-
-//var randomNum; 
-
-//for(i=0; i< answer.length; i++)
-
-//var randomNum = Math.floor(Math.random()*12)+1;
-
-//$(".random.Num1").html(userGuess)
-
 
 function startGame() {
 
     answer = getRandomNumber(19, 120);
     gems.ruby = getRandomNumber(1, 12);
     gems.sapphire = getRandomNumber(1, 12);
-    gems.emerald = getRandomNumber(1, 12);
-    gems.topaz = getRandomNumber(1, 12);
+    gems.amethyst = getRandomNumber(1, 12);
+    gems.pearl = getRandomNumber(1, 12);
 
     userScore = 0;
     gameOver = false;
@@ -87,3 +71,19 @@ $("#gems img").on("click", function () {
 $("#start-button").on("click", function () {
     startGame();
 });
+
+// Four gems and a random result
+
+// each gem has a random number between 1-12
+
+// a new number should be generated for each gem at start()/restart()
+
+// on.click of a gem {gem value += gem value} till {gem value === answer || gem value > answer }
+
+//var randomNum; 
+
+//for(i=0; i< answer.length; i++)
+
+//var randomNum = Math.floor(Math.random()*12)+1;
+
+//$(".random.Num1").html(userGuess)
